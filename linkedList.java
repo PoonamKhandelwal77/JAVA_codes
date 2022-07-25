@@ -41,7 +41,7 @@ class Node{
         Node temp=head;
         if(pos==1){
             insert_first(val);
-        }else if(pos==size){
+        }else if(pos-1==size){
             insert_last(val);
         }
         else {
